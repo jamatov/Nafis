@@ -1,0 +1,150 @@
+
+@media screen and (max-width: 1330px) {
+  .nav{
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .nav-bar{
+    width: 100%;
+  }
+
+  .container{
+    width: auto;
+  }
+
+  .project-info{
+    gap: 30px;
+  }
+
+  /* .project-info__info{
+    width: auto;
+  } */
+
+  /* .project-info__img1{
+    width: 100%;
+    height: 100%;
+  } */
+
+  
+}
+
+@media  screen and (max-width: 1200px){
+  .project-images__images{
+    display: block;
+    /* margin: 0 auto; */
+    text-align: center;
+  }
+
+  
+}
+
+@media screen and (max-width: 934px){
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-bar__list{
+    position: fixed;
+    left: -100%;
+    top: 100px;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .hero-section{
+    width: auto;
+    height: auto;
+  }
+
+  .nav-bar__item{
+    margin: 16px 0;
+  }
+
+  .nav-bar__list.active{
+    left: 0;
+  }
+
+  .project-info{
+    display: block;
+    width: auto;
+    text-align: center;
+  }
+  
+  .project-info__info{
+    margin: 0 auto;
+  }
+
+  .project-info__img1{
+    width: 100%;
+    height: auto;
+  }
+
+  .project-image__texts{
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer{
+    margin: 0 auto;
+  }
+
+  .footer-logo{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .footr-links{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 648px){
+  .project-images__images-image1{
+    width: 100%;
+    height: auto;
+  }
+
+  .project-images__images-image2{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 555px){
+  .project-info__info{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 488px){
+  .nav-bar__logo{
+    height: 40px;
+  }
+  
+  .project-info__img1{
+    width: 100%;
+    height: 100%;
+    
+  }
+}
