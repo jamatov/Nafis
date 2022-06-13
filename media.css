@@ -1,0 +1,267 @@
+
+@media screen and (max-width: 1330px) {
+  .nav{
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .nav-bar{
+    width: 100%;
+  }
+
+  .container{
+    width: auto;
+  }
+
+  .hero-content{
+    width: auto;
+    justify-content: center;
+  }
+
+  .main-info{
+    display: block;
+  }
+
+  .hero-info{
+    display: none;
+  }
+  
+  .main-info__info{
+    margin: 0;
+  }
+
+  .main-info__img{
+    width: 100%;
+  }
+
+  .main-info__title{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .main-info__info{
+    display: block;
+  }
+
+  .contact-info-location{
+    justify-content: space-around;
+  }
+
+  .location_image{
+    width: 268px; 
+    height: 544px; 
+  }
+  
+}
+
+@media screen and (max-width: 934px){
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-bar__list{
+    position: fixed;
+    left: -100%;
+    top: 100px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #15594D;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .hero-section{
+    width: auto;
+    height: auto;
+  }
+
+  .nav-bar__item{
+    margin: 16px 0;
+  }
+
+  .nav-bar__list.active{
+    left: 0;
+  }
+
+  .hero-content{
+    align-items: center;
+  }
+
+  .main-info__info{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .main-info__texts{
+    width: auto;
+    padding-left: 15px;
+  }
+
+  .main-info__info{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact-section__texts{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 66px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .contact-info-location{
+    display: block;
+    text-align: center;
+  }
+
+  .contact-info{
+    text-align: center;
+    display: block;
+  }
+  
+  .footer{
+    margin: 0 auto;
+  }
+
+  .footer-logo{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .footr-links{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 488px){
+  .nav-bar__logo{
+    height: 40px;
+  }
+  .hero-content{
+    width: 100%;
+  }
+
+  .request{
+    width: 300px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    padding: 32px;
+  
+  }
+  
+  .request-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 39px;
+    margin-bottom: 10px;
+  }
+  
+  .request-input{
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 12px;
+    margin-bottom: 10x;
+  }
+  
+  .request-commentInput{
+    width: 100%;
+    height: 97px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    border-radius: 6px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .request-btn{
+    width: 100%;
+    padding : 12px 0;
+    background: #15594D;
+    backdrop-filter: blur(10px);
+    border-radius: 6px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+  }
+  
+  .hero-section{
+    margin-bottom: 30px;
+  }
+
+  .main-cards__title{
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 75px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+
+  .main-cards{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .main-info__title{
+    font-size: 30px;
+  }
+
+  .main-info__texts{
+    margin-left: 25px;
+  }
+
+  .main-info__text{
+    width: 135px;
+    margin-right: 53px;
+  }
+
+  .contact-section__texts{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .main-cards__title{
+    margin-bottom: 15px;
+  }
+  
+  .location_image{
+    width: 201px; 
+    height: 409px; 
+  }
+  
+}

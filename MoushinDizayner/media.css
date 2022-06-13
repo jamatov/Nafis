@@ -1,0 +1,132 @@
+
+@media screen and (max-width: 1330px) {
+  .nav{
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .nav-bar{
+    width: 100%;
+  }
+
+  .container{
+    width: auto;
+  }
+  
+}
+
+@media  screen and (max-width: 1149px){
+  .person-image{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+
+
+  
+  .person-image__info{
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .person-image__title{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000000;
+  }
+  
+  .person-image__texts{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #000000;
+  }
+
+  
+}
+
+@media screen and (max-width: 934px){
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-bar__list{
+    position: fixed;
+    left: -100%;
+    top: 100px;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-bar__item{
+    margin: 16px 0;
+  }
+
+  .nav-bar__list.active{
+    left: 0;
+  }
+
+  .footer{
+    margin: 0 auto;
+  }
+
+  .footer-logo{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .footr-links{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 523px){
+  .person-image__image{
+    width: 100%;
+    height: auto;
+  }
+
+  .person-image__title{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 45px;
+    color: #000000;
+  }
+}
+
+
+
+@media screen and (max-width: 488px){
+  .nav-bar__logo{
+    height: 40px;
+  }
+  
+
+}
